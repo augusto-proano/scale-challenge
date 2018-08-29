@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css?family=Abril+Fatface");
+
+body {
+  background-image: linear-gradient(45deg, #ffffff, #2c5bb16e);
+  background-size: 90em 60em;
+}
+
+button {
+  cursor: pointer;
+}
+
+.color-1 {
+  background-image: linear-gradient(90deg, #2d9635, #2cbd50);
+}
+
+.color-2 {
+  background-image: linear-gradient(90deg, #2cbd50, #51f134);
+}
+
+.color-3 {
+  background-image: linear-gradient(90deg, #51f134, #cfff9b);
+}
+
+.color-4 {
+  background-image: linear-gradient(90deg, #cfff9b, #e9ffb4);
+}
+
+.color-5 {
+  background-image: linear-gradient(90deg, #e9ffb4, #d2d448);
+}
+
+.color-6 {
+  background-image: linear-gradient(90deg, #e0e254, #ffeb3b);
+}
+
+.color-7 {
+  background-image: linear-gradient(90deg, #ffeb3b, #f9de1d);
+}
+
+.color-8 {
+  background-image: linear-gradient(90deg, #fffa58, #ff9108);
+}
+
+.color-9 {
+  background-image: linear-gradient(90deg, #fbc076, #f16c0d);
+}
+
+.color-10 {
+  background-image: linear-gradient(90deg, #ffac70, #da0101);
+}
+
+.empty-symbol {
+  display: inline-block;
+  border-radius: 50%;
+  border: 5px double white;
+  width: 30px;
+  height: 30px;
+  background-image: linear-gradient(45deg, #ffffff, #9e9e9e);
+}
+
+.full-symbol {
+  display: inline-block;
+  border-radius: 50%;
+  border: 5px double white;
+  width: 30px;
+  height: 30px;
+}
+
+.popup {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.popup-perils {
+  display: flex;
+  flex-direction: column;
+}
+
+.popup-perils > h1 {
+  margin: 20px;
+  color: white;
+  text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+.popup-scale-single {
+  display: flex;
+  align-items: center;
+}
+
+.popup-scale-single > h1 {
+  margin: 20px;
+  color: white;
+}
+
+.rating-scale {
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.rating-scale-button {
+  outline: none;
+  padding: 5px 15px;
+  margin: 0px 30px;
+  font-size: 30px;
+  color: white;
+  border: inset 2px #31418f;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    45deg,
+    rgb(15, 17, 80) 45%,
+    rgb(0, 78, 255) 105%
+  );
+  box-shadow: 0px 0px 0px 1px rgb(44, 19, 247);
+  transition: 1s;
+}
+
+.rating-scale-button:hover {
+  outline: none;
+  text-shadow: 0px 0px 1px rgb(19, 26, 247);
+  color: #202747;
+  background-image: linear-gradient(45deg, #e2ddff73, #5a66f3);
+}
+
+.rating-scale-buttons > div.popup-content {
+  outline: none;
+  width: 43em !important;
+  border-radius: 20px;
+  border: 0px !important;
+  text-align: center;
+  background-image: linear-gradient(45deg, #bbb4de, #081d56) !important;
+  box-shadow: 0px 0px 0px 1px rgb(86, 19, 247) !important;
+  border: inset 4px #9f9bc3 !important;
+  opacity: 0.9;
+}
+
+.rating-scale-title {
+  font-family: "Abril Fatface", cursive;
+  font-size: 4em;
+  margin: 1em;
+}
