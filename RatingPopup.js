@@ -5,7 +5,6 @@ import Popup from "reactjs-popup";
 const RatingPopup = (element, natPerils) => {
   const naturalPerils = Object.keys(natPerils);
   const ratingScale = Object.values(natPerils);
-  console.log("VALUES", ratingScale);
   return (
     <Popup trigger={element} closeOnDocumentClick>
       {() => (
@@ -20,6 +19,7 @@ const RatingPopup = (element, natPerils) => {
           <div className="popup-scale">
             {ratingScale.map((value, idx) => (
               <div key={idx} className="popup-scale-single">
+                {/* Rating Scale from 1 to 10 */}
                 <Rating
                   initialRating={value}
                   stop="10"
